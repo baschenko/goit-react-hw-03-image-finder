@@ -111,3 +111,19 @@ GitHub.
 3. Если все шаги прошли успешно, собранная продакшн версия файлов проекта
    отправляется в ветку `gh-pages`. В противном случае, в логе выполнения
    скрипта будет указано в чем проблема.
+
+
+Домашки
+
+В поле «Сдай домашнее задание!» прикрепляем 2 ссылки:
+1 - Книга контактов
+Живая страница (gh-pages):
+https://baschenko.github.io/goit-react-hw-03-phonebook/
+Репозитории:
+https://github.com/baschenko/goit-react-hw-03-phonebook
+
+2 - Поиск изображений
+Живая страница (gh-pages):
+https://github.com/baschenko/goit-react-hw-03-image-finder
+Репозитории:
+https://baschenko.github.io/goit-react-hw-03-image-finder/

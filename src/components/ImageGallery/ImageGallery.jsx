@@ -15,8 +15,7 @@ export default class ImageGallery extends Component {
     isLoading: false,
     showLoadMore: false,
     currentPage: 1,
-    showModal: false,
-  };
+   };
 
   optimaizerImageList = images => {
     return images.map(({ id, tags, largeImageURL, webformatURL }) => ({
@@ -80,11 +79,7 @@ export default class ImageGallery extends Component {
     this.setState(prevState => ({ currentPage: prevState.currentPage + 1 }));
   };
 
-  toggleModal = () => {
-    this.setState(({ showModal }) => ({
-      showModal: !showModal,
-    }));
-  };
+
 
   render() {
     const { capture, error, isLoading, showLoadMore, images } = this.state;
@@ -94,7 +89,7 @@ export default class ImageGallery extends Component {
 
         {capture !== null && (
           <ImageGellery>
-            <ImageGalleryItem hits={images} onClick={this.toggleModal} />
+            <ImageGalleryItem hits={images}  />
           </ImageGellery>
         )}
 
